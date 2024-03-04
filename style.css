@@ -43,7 +43,7 @@ span, a{
 }
 .red{
     border: 2px solid gray;
-    width: 650px;
+    width: 460px;
    
 }
 .po{
@@ -93,6 +93,9 @@ span, a{
 .div2{
     padding: 0 20px;
 }
+.p1{
+    width: 75px;
+}
 .p2{
     margin: 10px;
 }
@@ -100,11 +103,17 @@ span, a{
     padding: 0 5px;
     font-size: 20px;
 }
-
+.web1{
+    width: 80px;
+}
 .rasm2{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    overflow: scroll;
+    height: 90px;
+}
+.rasm2::-webkit-scrollbar{
+    scroll-behavior: auto;
 }
 .t2{
     padding-right: 233px;
